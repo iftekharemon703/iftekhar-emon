@@ -5,7 +5,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return (
-        <section className="container py-5">
+        <section id="about" className="container py-5">
             <div className="row align-items-center d-flex">
                 <div className="col-md-6">
                     <img className="img-fluid" src={about}/>

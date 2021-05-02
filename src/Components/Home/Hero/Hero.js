@@ -3,7 +3,7 @@ import hero from '../../../images/hero.png';
 
 const Hero = () => {
     return (
-        <div className="container py-md-5">
+        <div id="home" className="container py-md-5">
             <div className="row d-flex align-items-center">
             <div className="col-md-6 order-md-2">
                     <img className="img-fluid p-5" src={hero}/>

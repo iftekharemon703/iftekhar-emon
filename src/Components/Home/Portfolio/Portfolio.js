@@ -9,7 +9,7 @@ import './Portfolio.css';
 
 const Portfolio = () => {
     return (
-        <section className="container  py-md-5 py-sm-4">
+        <section id="portfolio" className="container  py-md-5 py-sm-4">
             <h2 className="text-center text-warning">My Works</h2>
             <div className="row align-items-center d-flex">
                 <div className="col-md-4">
