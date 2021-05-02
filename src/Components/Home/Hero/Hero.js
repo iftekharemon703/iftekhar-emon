@@ -21,7 +21,7 @@ const Hero = () => {
                             relationship, build in trust, open communication, and responsibility.
                         </p>
                     <a href="/contact">
-                        <div className="btn btn-outline-warning text-white">Get in Touch</div>
+                        <div className="btn btn-outline-warning">Get in Touch</div>
                     </a>
                 </div>
             </div>
