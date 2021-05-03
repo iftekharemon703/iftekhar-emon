@@ -14,6 +14,7 @@
     "bootstrap": "^4.6.0",
     "install": "^0.13.0",
     "npm": "^7.11.2",
+    "pigeon-maps": "^0.19.5",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",

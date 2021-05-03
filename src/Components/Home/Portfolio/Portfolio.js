@@ -14,7 +14,9 @@ const Portfolio = () => {
             <div className="row align-items-center d-flex">
                 <div className="col-md-4">
                     <div class="card m-2">
-                        <img src={fixUrPhoto} class="card-img-top img-fluid" alt="..."/>
+                        <div className="overflow-hidden">
+                        <img src={fixUrPhoto} class="card-img-top img-fluid img-brand" alt="..."/>
+                        </div>
                         <div class="card-body bg-brand">
                             <h5 class="card-title text-warning">FixUrPhoto</h5>
                             <p class="card-text text-white">A single-page photo editing app with a dashboard where people looking for photo editing services. Whenever the customer wants he can log in in-to the site and he can review about services.</p>
@@ -28,14 +30,16 @@ const Portfolio = () => {
                             </div>
 
                             <br/> <br/>
-                            <a target="_blank" href="https://github.com/iftekharemon703/fixurpixels-client"><FontAwesomeIcon className="bg-white me-3" icon={faGithub} /></a>
-                            <a target="_blank" href="https://fixurpixels.web.app/"><FontAwesomeIcon className="bg-white" icon={faExternalLinkAlt} /></a>
+                            <a target="_blank" href="https://github.com/iftekharemon703/fixurpixels-client"><FontAwesomeIcon style={{fontSize: '20px'}}  className="text-warning me-3" icon={faGithub} /></a>
+                            <a target="_blank" href="https://fixurpixels.web.app/"><FontAwesomeIcon style={{fontSize: '20px'}} className="text-warning" icon={faExternalLinkAlt} /></a>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div class="card m-2">
-                        <img src={doctorsPortal} class="card-img-top img-fluid" alt="..."/>
+                        <div className="overflow-hidden">
+                            <img src={doctorsPortal} class="card-img-top img-fluid img-brand" alt="..."/>
+                        </div>
                         <div class="card-body bg-brand">
                             <h5 class="card-title text-warning">Doctors Portal</h5>
                             <p class="card-text text-white">A single-page web app with a dashboard. People can appoint a suitable date with the doctor. Doctors can review their appointments and prescribe medicine to a Patient from their dashboard.</p>
@@ -48,14 +52,16 @@ const Portfolio = () => {
                             </div>
 
                             <br/> <br/>
-                            <a target="_blank" href="https://github.com/iftekharemon703/doctors-portal-client"><FontAwesomeIcon className="bg-white me-3" icon={faGithub} /></a>
-                            <a target="_blank" href="https://doctors-portal-691d6.web.app/"><FontAwesomeIcon className="bg-white" icon={faExternalLinkAlt} /></a>
+                            <a target="_blank" href="https://github.com/iftekharemon703/doctors-portal-client"><FontAwesomeIcon style={{fontSize: '20px'}}  className="text-warning me-3" icon={faGithub} /></a>
+                            <a target="_blank" href="https://doctors-portal-691d6.web.app/"><FontAwesomeIcon style={{fontSize: '20px'}} className="text-warning" icon={faExternalLinkAlt} /></a>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div class="card m-2">
-                        <img src={FrozenFood} class="card-img-top img-fluid" alt="..."/>
+                        <div className="overflow-hidden">
+                            <img src={FrozenFood} class="card-img-top img-fluid img-brand" alt="..."/>
+                        </div>
                         <div class="card-body bg-brand">
                             <h5 class="card-title text-warning">Frozen Food</h5>
                             <p class="card-text text-white py-2">A single-page eCommerce app with a dashboard where people add books to any product. Whenever the customer wants he can log in in-to the site and add products.</p>
@@ -68,8 +74,8 @@ const Portfolio = () => {
                             </div>
 
                             <br/> <br/>
-                            <a target="_blank" href="https://github.com/iftekharemon703/frozen-food-client"><FontAwesomeIcon className="bg-white me-3" icon={faGithub} /></a>
-                            <a target="_blank" href="https://cranky-wiles-4bf824.netlify.app/"><FontAwesomeIcon className="bg-white" icon={faExternalLinkAlt} /></a>
+                            <a target="_blank" href="https://github.com/iftekharemon703/frozen-food-client"><FontAwesomeIcon style={{fontSize: '20px'}}  className="text-warning me-3" icon={faGithub} /></a>
+                            <a target="_blank" href="https://cranky-wiles-4bf824.netlify.app/"><FontAwesomeIcon style={{fontSize: '20px'}} className="text-warning" icon={faExternalLinkAlt} /></a>
                         </div>
                     </div>
                 </div>

@@ -20,7 +20,7 @@ const Hero = () => {
                             anything our team has taken. I always look forward to making a healthy working
                             relationship, build in trust, open communication, and responsibility.
                         </p>
-                    <a href="/contact">
+                    <a href="/#contact">
                         <div className="btn btn-outline-warning">Get in Touch</div>
                     </a>
                 </div>
