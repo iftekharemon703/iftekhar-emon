@@ -1,5 +1,7 @@
 import React from 'react';
 import hero from '../../../images/hero.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Hero = () => {
     return (
@@ -20,9 +22,12 @@ const Hero = () => {
                             anything our team has taken. I always look forward to making a healthy working
                             relationship, build in trust, open communication, and responsibility.
                         </p>
-                    <a href="/#contact">
-                        <div className="btn btn-outline-warning">Get in Touch</div>
+                    <a className="pe-4" href="/#about">
+                        <div className="btn btn-outline-warning">About Me</div>
                     </a>
+                    <a href="https://drive.google.com/uc?export=download&id=1WGYOQwKVeg3JBcmi7Thb8FlZ2Zc_ADgo">
+                        <div className="btn btn-outline-warning"><FontAwesomeIcon icon={faDownload} /> Download Resume</div>
+                   </a>
                 </div>
             </div>
         </div>

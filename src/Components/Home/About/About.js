@@ -14,9 +14,9 @@ const About = () => {
                     <p className="text-warning">About myself</p>
                     <h2 className="text-white">About Me, I'm a <span className="text-warning">Developer</span></h2>
                     <p className="text-white">Hi There, I'm iftekhar emon. I'm always updating my work to something you can see from here every day, every week and every month. Here i will update everything about how to trading works and it changes every year</p>
-                   <a href="https://drive.google.com/uc?export=download&id=1G_ADfo2nG_5Xj9KShR-uziTv26MUQgCc">
-                   <div className="btn btn-outline-warning"><FontAwesomeIcon icon={faDownload} /> Download Resume</div>
-                   </a>
+                    <a className="pe-4" href="/#contact">
+                        <div className="btn btn-outline-warning">Get In Touch</div>
+                    </a>
                 </div>
             </div>
         </section>
