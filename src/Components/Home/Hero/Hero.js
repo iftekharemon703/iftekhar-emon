@@ -25,7 +25,7 @@ const Hero = () => {
                     <a className="pe-4" href="/#about">
                         <div className="btn btn-outline-warning">About Me</div>
                     </a>
-                    <a href="https://drive.google.com/uc?export=download&id=1WGYOQwKVeg3JBcmi7Thb8FlZ2Zc_ADgo">
+                    <a href="https://drive.google.com/file/d/143qPaSBjHdllGbmXKWo4Efiq52_kxE9S/view?usp=sharing">
                         <div className="btn btn-outline-warning"><FontAwesomeIcon icon={faDownload} /> Download Resume</div>
                    </a>
                 </div>
