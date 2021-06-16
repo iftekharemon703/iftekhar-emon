@@ -23,7 +23,7 @@ const Header = () => {
                     <li class="nav-item">
                         <a class="nav-link text-white px-3" aria-current="page" href="#contact">Contact</a>
                     </li>
-                    <a target="_blank" href="https://drive.google.com/uc?export=download&id=143qPaSBjHdllGbmXKWo4Efiq52_kxE9S">
+                    <a target="_blank" href="https://drive.google.com/file/d/1G_ADfo2nG_5Xj9KShR-uziTv26MUQgCc/view?usp=sharing">
                         <div className="btn btn-outline-warning px-3">Resume</div>
                     </a>
                 </ul>
